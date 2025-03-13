@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: buildjet-4vcpu-ubuntu-2204
+    runs-on: hetzner4vcpu
     steps:
     - uses: actions/checkout@v4
     - name: Update system package info
