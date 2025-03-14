@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: hetzner4vcpu
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v4
     - name: Update system package info
